@@ -9,3 +9,6 @@ node_modules/
 
 # ignore logs as it will be different on each individual system
 *.log
+
+# ignore sonarlint
+.sonarlint/
