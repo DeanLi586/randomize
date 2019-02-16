@@ -1,0 +1,11 @@
+# ignore node_modules
+node_modules/
+
+# ignore .env
+.env
+
+# ignore jshintrc
+.jshintrc
+
+# ignore logs as it will be different on each individual system
+*.log
