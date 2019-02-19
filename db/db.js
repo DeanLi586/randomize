@@ -15,7 +15,7 @@ mongoose.connect(DB_URL, {useNewUrlParser: true})
     logger.info("Successfully connected to db");
 })
 .catch((err) => {
-    logger.error("Unable to connect to database");
+    logger.error(err);
 });
 
 module.exports = mongoose;
