@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const db = require("./db/db");
 const logger = require("./config/logger");
-const testRoutes = require('./routes/test.routes');
+const testRoutes = require('./routes/test_routes');
 // const swagger = require("swagger-ui-express");
 // const swaggerDocs = require("./swagger.json");
 
