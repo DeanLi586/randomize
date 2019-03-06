@@ -6,7 +6,7 @@ const Database = require('../models/databases');
 const logger = require('../config/logger');
 const FrameworkHistory = require('../models/frameworkHistory');
 
-let lastFrameworksUsed = getLastFrameworkDetails();
+// let lastFrameworksUsed = getLastFrameworkDetails();
 
 router.post('/randomize', (req, res) => {
 
@@ -49,8 +49,8 @@ router.post('/randomize', (req, res) => {
 //     });
 // }
 
-function getLastFrameworkDetails() {
-    return FrameworkHistory.find().sort({"_id": -1}).limit(1);
-}
+// function getLastFrameworkDetails() {
+//     return FrameworkHistory.find().sort({"_id": -1}).limit(1);
+// }
 
 module.exports = router;
